@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 desktop-left">
+                <div id="desktop-folders" class="row flex-column">
+
+                </div>
+            </div>
+
+            <div id="document" class="col-11 desktop-right folder-passive">
+                <div class="document row flex-column">
+                    <div class="document-header d-flex justify-content-between ps-2 pe-0">
+                        <div class="d-flex justify-content-center align-items-center gap-2">
+                            <i class=" btn fa-solid fa-folder-open p-0"></i>
+                            <span>|</span>
+                            <span id="folder-name" class=" p-0">Document</span>
+                        </div>
+                        <div>
+                            <div id="close-folder" class="btn p-1 close px-3">&#10005;</div>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <div class="row p-0 m-0 document-body">
+                        <div class="document-left-side col-3 p-0 pt-2 border-end">
+                            <div class="px-2">
+                                <i class="fa-solid fa-computer"></i>
+                                <span class="">My Computer</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa-solid fa-folder-open"></i>
+                                <span class="">My Documents</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa-solid fa-images"></i>
+                                <span class="">My İmages</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span class="">My Games</span>
+                            </div>
+                        </div>
+                        <div class="document-right-side col-9 p-0">
+                            <div id="folderBody" class="row d-flex folders m-2 gap-2">
+                                <!-- <div class="folder-file-item">
+                                    <img class="w-100" src="./assets/img/windows10.webp" alt="">
+                                    <div class="text-center">image-1</div>
+                                </div>
+                                <div class="folder-file-item">
+                                    <img class="w-100" src="./assets/img/windows10.webp" alt="">
+                                    <div class="text-center">image-1</div>
+                                </div>
+                                <div class="folder-file-item">
+                                    <img class="w-100" src="./assets/img/windows10.webp" alt="">
+                                    <div class="text-center">image-1</div>
+                                </div>
+                                <div class="folder-file-item">
+                                    <img class="w-100" src="./assets/img/windows10.webp" alt="">
+                                    <div class="text-center">image-1</div>
+                                </div>
+                                <div class="folder-file-item">
+                                    <img class="w-100" src="./assets/img/windows10.webp" alt="">
+                                    <div class="text-center">image-1</div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 initialize-left">
+                    <div class="btn btn-initialize">
+                        <i style="font-size: 20px !important" class="fa-brands fa-windows"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-images"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                </div>
+                <div class="col-6 initialize-right">
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <div class="btn btn-initialize">
+                        <i class="fa-solid fa-volume-low"></i>
+                    </div>
+                    <div class="text-light btn btn-initialize date">
+                        <div id="clock">14.30</div>
+                        <div id="date">12.12.2222</div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/477489111e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

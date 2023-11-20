@@ -1,0 +1,150 @@
+.folder-active {
+  display: block;
+}
+
+.folder-passive {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/windows10.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desktop-left h6 {
+  font-size: 12px;
+}
+
+.desktop-right,
+.desktop-left {
+  height: 100vh;
+}
+
+.desktop-left .row .btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0px;
+  border-radius: initial;
+}
+
+.desktop-left .row .btn:hover {
+  background-color: rgba(107, 107, 107, 0.3);
+}
+
+#document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  border-radius: 0;
+}
+
+.close:hover {
+  background-color: rgb(220, 53, 69);
+}
+
+.document {
+  width: 50vw;
+  height: 50vh;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 8px rgb(80, 80, 80);
+}
+
+.document-body {
+  height: 90%;
+}
+
+.document-left-side {
+  height: 100%;
+}
+
+.document-left-side div:hover {
+  background: rgb(199, 232, 255);
+}
+
+.document-left-side div i {
+  color: rgb(77, 77, 255);
+}
+
+.document-left-side div span {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.folder-file-item {
+  padding: 5px;
+  width: 23%;
+}
+
+.folder-file-item:hover {
+  background-color: rgba(107, 107, 107, 0.15);
+}
+
+.folder-file-item-img {
+  height: 60%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(40, 40, 40);
+  width: 100%;
+  height: 36px;
+}
+
+#footer .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .btn:hover {
+  background-color: rgba(107, 107, 107, 0.3);
+}
+
+#footer div {
+  height: 100%;
+  font-size: 14px;
+}
+
+.col-6 {
+  padding: 0;
+}
+
+.initialize-left {
+  display: flex;
+}
+
+.initialize-right {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-initialize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.btn-initialize i {
+  color: #fff;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date div {
+  font-size: 11px !important;
+}
